@@ -1,0 +1,11 @@
+<item>
+	<title>[title]</title>
+	<description>[description]</description>
+	<itunes:summary></itunes:summary>
+	<itunes:subtitle></itunes:subtitle>
+	<itunesu:category itunesu:code="1303" />
+	<enclosure url="[mp3url]" type="audio/mpeg" length="1" />
+	<guid>[mp3url]</guid>
+	<itunes:duration>[duration]</itunes:duration>
+	<pubDate>[createdate]</pubDate>
+</item>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+	<channel>
+		<link>http://www.osu.edu</link>
+		<language>en-us</language>
+		<copyright>2000</copyright>
+		<webMaster>jC</webMaster>
+		<managingEditor>jC</managingEditor>
+		<image>
+			<url>eip.png</url>
+			<title>jC PC Feed</title>
+			<link></link>
+		</image>
+		<itunes:owner>
+			<itunes:name>jC PC Feed</itunes:name>
+			<itunes:email></itunes:email>
+		</itunes:owner>
+		<itunes:category text="Comedy" />
+		<itunes:keywords>jC PC Feed</itunes:keywords>
+		<itunes:explicit>yes</itunes:explicit>
+		<itunes:image href="cover.png" />
+		<atom:link href="podcast.xml" rel="self" type="application/rss+xml" /> <!-- The URL of this file -->
+		<pubDate>Thu, 24 May 2018 00:00:00 G5T</pubDate> <!-- http://www.timeanddate.com/worldclock/city.html?n=805 - Use 24 hour clock -->
+		<title>jC PC Feed</title>
+		<itunes:author>jC</itunes:author>
+		<description>jC PC Feed</description>
+		<itunes:summary>It's whatever audio files I've got in my "Listen" folder, mainly Kevin and Bean, some Howard Stern.</itunes:summary>
+		<itunes:subtitle>Listen to it.</itunes:subtitle>
+		<lastBuildDate>[lastBuildDate]</lastBuildDate> <!-- http://www.timeanddate.com/worldclock/city.html?n=805 - Use 24 hour clock -->
+		[items]
+	</channel>
+</rss>
