@@ -44,6 +44,11 @@ namespace jCPCFeed.Controllers
 
             foreach (var item in allFiles)
             {
+                if (item.Length == 0) {
+                    System.IO.File.Delete(item.FullName);
+                    continue;
+                };
+
                 TagLib.File thisMp3 = TagLib.File.Create(item.FullName);
 
                 var secs = Convert.ToDouble(Math.Round(Convert.ToDecimal(thisMp3.Properties.Duration.TotalSeconds), 0));
@@ -71,11 +76,8 @@ namespace jCPCFeed.Controllers
                 }
 
                 itemXmlDone = itemXmlDone.Replace("[itemimage]", itemImg);
-                
+                itemsXml.Add(itemXmlDone);
 
-        //itemXmlDone = Regex.Replace(itemXmlDone, @"\r\n?|\n|\t", "");
-
-        itemsXml.Add(itemXmlDone);
             }
 
             var lastBuildDate = allFiles.Select(x => x.CreationTime).First();
